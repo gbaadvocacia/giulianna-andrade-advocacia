@@ -1,4 +1,3 @@
-import ConectImg from '../../assets/conectMe.png';
 import { ContactMe } from '../ContactMe';
 import { Container } from './styles';
 

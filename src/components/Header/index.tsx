@@ -12,7 +12,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 const Header: React.FC = () => {
     return (
-        <DarkHeader>
+        <DarkHeader className="py-4">
             <div className="container">
                 <nav className="navbar navbar-expand-xxl">
                     <div className="container-fluid">
@@ -38,19 +38,19 @@ const Header: React.FC = () => {
                         >
                             <List className="navbar-nav">
                                 <Nav value="Home" id="home" />
-                                <li className="me-3">
+                                <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
                                 <Nav value="O escritório" id="office" />
-                                <li className="me-3">
+                                <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
                                 <Nav value="Quem sou eu" id="whoIAm" />
-                                <li className="me-3">
+                                <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
                                 <Nav value="Áreas de atuação" id="expertise" />
-                                <li className="me-3">
+                                <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
                                 <Nav value="Contato" id="contact" />
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
                                 <div className="me-2">
                                     <SocialMedia
                                         value={<FaWhatsapp />}
-                                        link="https://www.instagram.com/"
+                                        link="https://api.whatsapp.com/send/?phone=5541996386897"
                                     />
                                 </div>
                                 <div className="me-2">

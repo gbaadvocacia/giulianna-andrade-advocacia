@@ -1,19 +1,19 @@
-import { Container, Contant, Cover } from './styles';
+import { Container, Content, Cover } from './styles';
 import ForumImg from '../../assets/forum.png';
 import Welcome from '../Welcome';
 
-const Section1: React.FC = () => {
+const BusinessCard: React.FC = () => {
     return (
         <Container id="home">
             <Cover style={{ backgroundImage: `url(${ForumImg})` }}>
                 <div className="container">
-                    <Contant>
+                    <Content>
                         <Welcome />
-                    </Contant>
+                    </Content>
                 </div>
             </Cover>
         </Container>
     );
 };
 
-export default Section1;
+export default BusinessCard;

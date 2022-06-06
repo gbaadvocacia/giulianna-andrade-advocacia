@@ -1,10 +1,10 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import Home from '../page/Home';
+import Main from '../page/Main';
 
 export const PagesRoutes: React.FC = () => (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Main />} />
         </Routes>
     </BrowserRouter>
 );

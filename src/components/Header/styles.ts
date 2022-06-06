@@ -4,11 +4,8 @@ export const DarkHeader = styled.header`
     background-color: var(--dark-blue);
 `;
 
-export const Nav = styled.li`
-    border-radius: 50px;
-`;
-
 export const List = styled.ul`
+    cursor: pointer;
     @media (min-width: 320px) {
         align-items: start;
         margin-top: 15px;

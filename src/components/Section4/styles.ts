@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     background-color: var(--gray);
-    width: 100%;
     color: var(--dark-blue);
     min-height: 96vh;
 `;

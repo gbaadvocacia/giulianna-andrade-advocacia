@@ -11,7 +11,7 @@ const Statement: React.FC<IStatementProps> = ({ stat, name }) => {
         <Container className="text-center">
             <img src={StatementIconImg} alt="Depoimentos" className="mb-4" />
             <p className="text-wrap align-items-centr">{stat}</p>
-            <p className="fw-bold">{name}</p>
+            <h2 className="fw-bold">{name}</h2>
         </Container>
     );
 };

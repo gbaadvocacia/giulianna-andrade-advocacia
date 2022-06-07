@@ -1,12 +1,12 @@
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import BusinessCard from '../../components/BusinessCard';
-import Section6 from '../../components/Section6';
 import Section7 from '../../components/Section7';
 import TheOffice from '../../components/TheOffice';
 import Values from '../../components/Values';
 import About from '../../components/About';
 import Acting from '../../components/Acting';
+import Comments from '../../components/Comments';
 
 const Main = () => (
     <>
@@ -16,7 +16,7 @@ const Main = () => (
         <Values />
         <About />
         <Acting />
-        <Section6 />
+        <Comments />
         <Section7 />
         <Footer />
     </>

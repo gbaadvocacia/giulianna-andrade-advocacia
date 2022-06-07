@@ -13,7 +13,7 @@ const Values: React.FC = () => {
                 <Title>
                     <h1 className="text-center fw-bold">VALORES</h1>
                 </Title>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center gy-4 gx-4">
                     <div className="col d-flex mb-3 justify-content-center">
                         <ValuesCard value={DedicationImg} type="DEDICAÇÃO" />
                     </div>

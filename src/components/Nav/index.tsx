@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll';
 import { useState } from 'react';
 import { Title, UnderLine } from './styles';
 

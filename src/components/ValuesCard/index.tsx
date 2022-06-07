@@ -7,10 +7,10 @@ interface IValuesProps {
 }
 const ValuesCard: React.FC<IValuesProps> = ({ value, type }) => {
     return (
-        <Border className="align-items-center align-self-strech justify-items-center">
+        <Border className="align-items-center align-self-strech justify-items-center w-100 h-100">
             <Container>
                 <div className="d-flex align-items-center">
-                    <Card className="card d-flex align-items-center w-100 h-100">
+                    <Card className="card d-flex align-items-center">
                         <ImgCard
                             src={value}
                             alt="Values image"

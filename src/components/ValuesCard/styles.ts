@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Border = styled.div`
     background-color: var(--gray);
     border-radius: 50px;
-    width: 350px;
-    height: 400px;
 
     @media (min-width: 768px) {
         h5 {
@@ -18,10 +16,7 @@ export const Border = styled.div`
     }
 `;
 
-export const ImgCard = styled.img`
-    width: 150px;
-    height: 150px;
-`;
+export const ImgCard = styled.img``;
 
 export const Card = styled.div`
     width: 350px;

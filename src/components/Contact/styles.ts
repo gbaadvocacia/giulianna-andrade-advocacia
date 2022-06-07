@@ -5,22 +5,15 @@ export const Cover = styled.div`
     height: 100%;
     background-position: center center;
     background-size: cover;
-    background-color: rgb(17, 22, 44, 0);
-`;
-
-export const Contant = styled.section`
-    width: 100%;
-`;
-
-export const Container = styled.div`
     padding-top: 100px;
+    padding-bottom: 100px;
 `;
 
 export const Border = styled.div`
     border-radius: 20px;
     background-color: rgba(58, 75, 150, 0.3);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 `;
@@ -39,11 +32,17 @@ export const Text = styled.span`
     font-size: 5rem;
     @media (min-width: 320px) {
         font-size: 1rem;
-        padding-right: 30px;
     }
 
     @media (min-width: 768px) {
         font-size: 1.5rem;
-        padding-right: 30px;
     }
+`;
+
+export const Title = styled.h1`
+    padding-bottom: 100px;
+`;
+
+export const ContactStyles = styled.div`
+    padding-bottom: 100px;
 `;

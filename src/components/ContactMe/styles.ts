@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Border = styled.div`
     border-radius: 15px;
-    background-color: var(--light-blue);
     padding: 13px;
 `;
 

@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --white: #ffffff;
     --light-gray: #f3f3f3;
     --gray: #dfdfdf;
+    --green: #1abc9c;
     }
 
     html, body, #root {
@@ -30,5 +31,15 @@ export const GlobalStyle = createGlobalStyle`
     [disabled] {
         opacity: 0.6;
         cursor: not-allowed;
+    }
+
+    .green {
+        background-color: var(--green);
+        color: var(--white);
+    }
+
+    .blue {
+        background-color: var(--light-blue);
+        color: var(--white);
     }
 `;

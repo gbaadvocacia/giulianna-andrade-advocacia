@@ -10,7 +10,7 @@ const Welcome: React.FC = () => {
             <h2 className="mb-4">Eu posso te ajudar.</h2>
             <div className="d-flex justify-content-start">
                 <div className="d-flex flex-column text-center justify-content-center justify-items-center mt-3">
-                    <ContactMe />
+                    <ContactMe color="blue" />
                 </div>
             </div>
         </Container>

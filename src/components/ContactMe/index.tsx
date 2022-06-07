@@ -1,10 +1,16 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import { Border, LinkDecoration, Title } from './styles';
 
-export const ContactMe: React.FC = () => {
+interface IContactMeProp {
+    color: string;
+}
+
+export const ContactMe: React.FC<IContactMeProp> = ({ color }) => {
     return (
-        <div className="d-flex align-items-center justify-items-center text-center">
-            <Border className="text-center align-items-center justify-items-center">
+        <Border
+            className={`d-flex align-items-center justify-items-center text-center ${color}`}
+        >
+            <div className="text-center align-items-center justify-items-center">
                 <LinkDecoration
                     href="https://api.whatsapp.com/send/?phone=5541996386897"
                     target="_blank"
@@ -14,7 +20,7 @@ export const ContactMe: React.FC = () => {
                         <Title>ENTRE EM CONTATO COMIGO</Title>
                     </div>
                 </LinkDecoration>
-            </Border>
-        </div>
+            </div>
+        </Border>
     );
 };

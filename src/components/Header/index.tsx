@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                                 <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
-                                <Nav value="Áreas de atuação" id="expertise" />
+                                <Nav value="Áreas de atuação" id="acting" />
                                 <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>

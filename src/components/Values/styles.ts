@@ -18,9 +18,3 @@ export const Title = styled.div`
         padding-bottom: 70px;
     }
 `;
-
-export const Card = styled.div``;
-
-/* <div className="card-body d-flex justify-content-center">
-                    <h5 className="card-title mt-auto mb-0 fw-bold">{type}</h5>
-                </div> */

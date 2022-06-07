@@ -1,19 +1,19 @@
 import PerfilImg from '../../assets/perfil.png';
-import { Container, Flex, Paragraph, Size } from './styles';
+import { Container, Paragraph } from './styles';
 
-const Section4: React.FC = () => {
+const About: React.FC = () => {
     return (
-        <Container className="py-5" id="whoIAm">
+        <Container id="about">
             <div className="container">
-                <Flex className="py-2">
-                    <Size className="me-3 mb-4">
+                <div className="row row-cols-1 row-cols-lg-2">
+                    <div className="col justify-content-center align-items-center">
                         <img
                             src={PerfilImg}
                             alt="Foto de perfil"
-                            className="img-fluid w-100"
+                            className="img-fluid mb-4"
                         />
-                    </Size>
-                    <Size>
+                    </div>
+                    <div className="col">
                         <h1 className="fw-bold">QUEM SOU EU</h1>
                         <Paragraph className="fs-5">
                             <div
@@ -43,11 +43,11 @@ const Section4: React.FC = () => {
                                 }}
                             />
                         </Paragraph>
-                    </Size>
-                </Flex>
+                    </div>
+                </div>
             </div>
         </Container>
     );
 };
 
-export default Section4;
+export default About;

@@ -45,7 +45,7 @@ const Header: React.FC = () => {
                                 <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>
-                                <Nav value="Quem sou eu" id="whoIAm" />
+                                <Nav value="Quem sou eu" id="about" />
                                 <li className="me-3 d-none d-lg-block">
                                     <Circle />
                                 </li>

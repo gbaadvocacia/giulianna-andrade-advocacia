@@ -35,5 +35,6 @@ export const Content = styled.div`
 
     @media (max-width: 768px) {
         padding-top: 10px;
+        max-width: 100vw;
     }
 `;

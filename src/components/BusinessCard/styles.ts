@@ -32,7 +32,9 @@ export const Content = styled.div`
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
+    @media (max-width: 1400px) {
+        max-width: 30vw;
+    }
     @media (max-width: 768px) {
         padding-top: 10px;
         max-width: 100vw;

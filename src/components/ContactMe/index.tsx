@@ -15,9 +15,9 @@ export const ContactMe: React.FC<IContactMeProp> = ({ color }) => {
                     href="https://api.whatsapp.com/send/?phone=5541996386897"
                     target="_blank"
                 >
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center justify-contant-start">
                         <FaWhatsapp className="me-2" size={25} />
-                        <Title>ENTRE EM CONTATO COMIGO</Title>
+                        <Title className="">ENTRE EM CONTATO COMIGO</Title>
                     </div>
                 </LinkDecoration>
             </div>

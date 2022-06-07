@@ -15,9 +15,8 @@ export const LinkDecoration = styled.a`
 `;
 
 export const Title = styled.span`
-    font-size: 1.5rem;
-
-    @media (max-width: 768px) {
+    font-size: 1rem;
+    @media (max-width: 1119px) {
         font-size: 0.85rem;
     }
 `;

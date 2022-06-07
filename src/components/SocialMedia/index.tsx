@@ -4,16 +4,21 @@ import { CircleStyles, LinkDecoration } from './styles';
 interface ISocialMediaProps {
     value: ReactElement;
     link: string;
+    title: string;
 }
 
-export const SocialMedia: React.FC<ISocialMediaProps> = ({ value, link }) => {
+export const SocialMedia: React.FC<ISocialMediaProps> = ({
+    value,
+    link,
+    title,
+}) => {
     return (
         <div className="d-flex align-items-center justify-items-center text-center py-1">
-            <CircleStyles className="text-center align-items-center justify-items-center">
-                <LinkDecoration href={link} target="_blank">
+            <LinkDecoration href={link} target="_blank" title={title}>
+                <CircleStyles className="text-center align-items-center justify-items-center justify-content-center">
                     {value}
-                </LinkDecoration>
-            </CircleStyles>
+                </CircleStyles>
+            </LinkDecoration>
         </div>
     );
 };

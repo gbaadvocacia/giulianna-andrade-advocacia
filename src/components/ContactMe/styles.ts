@@ -10,7 +10,7 @@ export const LinkDecoration = styled.a`
     color: var(--white);
 
     &:hover {
-        color: var(--white);
+        opacity: 0.9;
     }
 `;
 
@@ -19,4 +19,11 @@ export const Title = styled.span`
     @media (max-width: 1119px) {
         font-size: 0.85rem;
     }
+`;
+
+export const Padding = styled.div`
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 `;

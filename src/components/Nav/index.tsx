@@ -11,8 +11,8 @@ const Nav: React.FC<INavProp> = ({ value, id }) => {
     const [click, setClick] = useState(false);
     const closeMenu = () => setClick(!click);
     return (
-        <UnderLine className="nav-item me-3 text-white py-1">
-            <Link
+        <li className="nav-item me-3 text-white py-1">
+            <UnderLine
                 to={id}
                 spy={true}
                 smooth={true}
@@ -21,8 +21,8 @@ const Nav: React.FC<INavProp> = ({ value, id }) => {
                 onClick={closeMenu}
             >
                 <Title>{value}</Title>
-            </Link>
-        </UnderLine>
+            </UnderLine>
+        </li>
     );
 };
 

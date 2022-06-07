@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     background-color: var(--blue);
+    @media (max-width: 560px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 `;
 
 export const Cover = styled.div`
@@ -11,11 +15,17 @@ export const Cover = styled.div`
 
     @media (max-width: 768px) {
         background-size: 0 0;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     @media (min-width: 769px) {
+        background-size: 40% 100vh;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    @media (min-width: 1400px) {
         background-position: 100% 0;
         padding-top: 100px;
         padding-bottom: 100px;
@@ -33,10 +43,15 @@ export const Content = styled.div`
         padding-bottom: 50px;
     }
     @media (max-width: 1400px) {
-        max-width: 30vw;
+        max-width: 40vw;
     }
     @media (max-width: 768px) {
         padding-top: 10px;
         max-width: 100vw;
+    }
+
+    @media (max-width: 560px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 `;

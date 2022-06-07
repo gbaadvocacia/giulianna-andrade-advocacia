@@ -30,4 +30,15 @@ export const Container = styled.div`
             font-size: 0.85rem;
         }
     }
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+`;
+
+export const Button = styled.div`
+    justify-content: start;
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
 `;

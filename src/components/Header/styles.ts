@@ -11,7 +11,7 @@ export const List = styled.ul`
         margin-top: 15px;
     }
 
-    @media (min-width: 1321px) {
+    @media (min-width: 1400px) {
         align-items: center;
     }
 `;
@@ -22,8 +22,26 @@ export const Alignment = styled.div`
         margin-top: 20px;
     }
 
-    @media (min-width: 1321px) {
+    @media (min-width: 1400px) {
         align-items: center;
         justify-content: center;
+    }
+`;
+
+export const Img = styled.div`
+    margin-right: 40px;
+    @media (max-width: 465px) {
+        width: 83%;
+        margin-right: 0;
+    }
+`;
+
+export const Container = styled.div`
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (max-width: 540px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 `;

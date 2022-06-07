@@ -1,6 +1,5 @@
 import { Border, Cover, Flex, Text, Title, ContactStyles } from './styles';
 import BackgroundImg from '../../assets/imagemFundo.jpg';
-import ConectImg from '../../assets/conectMe.png';
 import WhatsImg from '../../assets/whats.png';
 import EmailImg from '../../assets/email.png';
 import { ContactMe } from '../ContactMe';

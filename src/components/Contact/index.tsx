@@ -1,4 +1,4 @@
-import { Border, Cover, Flex, Text, Title } from './styles';
+import { Border, Cover, Flex, Text, Title, Width } from './styles';
 import BackgroundImg from '../../assets/imagemFundo.jpg';
 import WhatsImg from '../../assets/whats.png';
 import EmailImg from '../../assets/email.png';
@@ -16,7 +16,7 @@ const Contact: React.FC = () => (
                     </div>
                 )}
                 <Flex className="d-flex justify-content-center">
-                    <div style={{ maxWidth: '330px' }}>
+                    <Width>
                         {Config.social.contato && (
                             <div className="d-flex align-items-center justify-content-start mb-4">
                                 <img
@@ -45,7 +45,7 @@ const Contact: React.FC = () => (
                                 </Border>
                             </div>
                         )}
-                    </div>
+                    </Width>
                 </Flex>
             </div>
         </Cover>

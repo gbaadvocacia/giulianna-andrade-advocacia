@@ -1,5 +1,5 @@
 import PerfilImg from '../../assets/perfil.png';
-import { Container } from './styles';
+import { Container, Paragraph } from './styles';
 
 const About: React.FC = () => {
     return (
@@ -16,7 +16,7 @@ const About: React.FC = () => {
                     <div className="col col-md-8">
                         <div className="px-4">
                             <h1 className="fw-bold">QUEM SOU EU</h1>
-                            <p>
+                            <Paragraph>
                                 Giulianna Badalotti de Andrade é advogada e
                                 mediadora de conflitos. Natural de Curitiba,
                                 formada pelo Centro Universitário Autônomo do
@@ -27,8 +27,8 @@ const About: React.FC = () => {
                                 Pós-graduada em Direito do Trabalho e
                                 Previdenciário pela Academia Brasileira de
                                 Direito Constitucional ABBCONST.
-                            </p>
-                            <p>
+                            </Paragraph>
+                            <Paragraph>
                                 Membra do Instituto Brasileiro de Direito da
                                 Família - IBDFAM. Menbra do Grupo de Discussão
                                 Permanente de Direito de Família da Subseção de
@@ -36,8 +36,8 @@ const About: React.FC = () => {
                                 2013, junto à escritórios de advocacia e à
                                 administração pública, possui experiência nas
                                 mais diversas áreas do direito.
-                            </p>
-                            <p>
+                            </Paragraph>
+                            <Paragraph>
                                 Passou a advogar de forma autônoma quando
                                 fundou, em 2017, o escritório de GBA Advocacia.
                                 Com a prática da advocacia, passou a perceber a
@@ -45,15 +45,15 @@ const About: React.FC = () => {
                                 da formação acadêmica do direito, tais como
                                 técnicas de negociação e estudos dos métodos
                                 existentes para a resolução de conflitos.
-                            </p>
-                            <p>
+                            </Paragraph>
+                            <Paragraph>
                                 2021, capacitou-se como Conciliadora e Mediadora
                                 Judicial. Certificada pelo Tribunal de Justiça
                                 do Estado do Paraná, em formação continuada.
                                 Atualmente atua como advogada e mediadora junto
                                 ao escritório GBA Advocacia, e também como
                                 mediadora judicial.
-                            </p>
+                            </Paragraph>
                         </div>
                     </div>
                 </div>

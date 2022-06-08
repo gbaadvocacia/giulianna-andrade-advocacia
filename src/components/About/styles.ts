@@ -23,3 +23,15 @@ export const Size = styled.div`
         width: 100%;
     }
 `;
+
+export const Paragraph = styled.p`
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+    }
+    @media (max-width: 992px) {
+        font-size: 1.2rem;
+    }
+    @media (min-width: 1200px) {
+        font-size: 1.3rem;
+    }
+`;

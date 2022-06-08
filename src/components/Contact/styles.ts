@@ -43,3 +43,7 @@ export const Title = styled.h1`
 export const ContactStyles = styled.div`
     padding-bottom: 100px;
 `;
+
+export const Width = styled.div`
+    max-width: 330px;
+`;

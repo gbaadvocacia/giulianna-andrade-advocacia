@@ -35,3 +35,7 @@ export const Paragraph = styled.p`
         font-size: 1.3rem;
     }
 `;
+
+export const Img = styled.img`
+    border-radius: 30px;
+`;

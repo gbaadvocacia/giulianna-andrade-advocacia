@@ -1,5 +1,5 @@
-import PerfilImg from '../../assets/perfil.png';
-import { Container, Paragraph } from './styles';
+import PerfilImg from '../../assets/perfil.jpg';
+import { Container, Img, Paragraph } from './styles';
 
 const About: React.FC = () => {
     return (
@@ -7,7 +7,7 @@ const About: React.FC = () => {
             <div className="container">
                 <div className="row row-cols-1 row-cols-lg-2">
                     <div className="col col-md-4 justify-content-center align-items-center">
-                        <img
+                        <Img
                             src={PerfilImg}
                             alt="Foto de perfil"
                             className="img-fluid mb-4"

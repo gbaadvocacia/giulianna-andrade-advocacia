@@ -76,3 +76,32 @@ export const UnderLine = styled(Link)`
         border-bottom: 2px solid var(--light-blue);
     }
 `;
+
+export const ScrollLink = styled(Link)`
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+
+    &:hover {
+        color: var(--white);
+    }
+
+    & > svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        color: var(--white);
+    }
+`;

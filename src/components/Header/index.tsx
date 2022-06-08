@@ -5,7 +5,7 @@ import {
     DarkHeader,
     Img,
     List,
-    UnderLine,
+    ScrollLink,
 } from './styles';
 import { FaWhatsapp } from 'react-icons/fa';
 import { GrFacebookOption, GrInstagram } from 'react-icons/gr';
@@ -89,7 +89,7 @@ const Header: React.FC = () => {
                                 )}
                                 {Config.social.email && (
                                     <div className="me-2">
-                                        <UnderLine
+                                        <ScrollLink
                                             to="contact"
                                             spy={true}
                                             smooth={true}
@@ -99,15 +99,17 @@ const Header: React.FC = () => {
                                             title="E-mail"
                                         >
                                             <MdOutlineAlternateEmail />
-                                        </UnderLine>
+                                        </ScrollLink>
                                     </div>
                                 )}
                                 {Config.social.facebook && (
-                                    <SocialMedia
-                                        icon={<GrFacebookOption />}
-                                        link={Config.social.facebook}
-                                        title="link para o perfil do Facebook"
-                                    />
+                                    <div className="me-2">
+                                        <SocialMedia
+                                            icon={<GrFacebookOption />}
+                                            link={Config.social.facebook}
+                                            title="Whatsapp"
+                                        />
+                                    </div>
                                 )}
                             </Alignment>
                         </div>

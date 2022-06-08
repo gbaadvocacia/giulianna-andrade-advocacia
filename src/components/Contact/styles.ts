@@ -12,10 +12,7 @@ export const Cover = styled.div`
 export const Border = styled.div`
     border-radius: 20px;
     background-color: rgba(58, 75, 150, 0.3);
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px;
 `;
 
 export const Flex = styled.div`

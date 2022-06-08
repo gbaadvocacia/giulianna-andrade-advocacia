@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 export const DarkHeader = styled.header`
     background-color: var(--dark-blue);
@@ -43,5 +44,35 @@ export const Container = styled.div`
     @media (max-width: 540px) {
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+`;
+
+export const UnderLine = styled(Link)`
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+
+    &:hover {
+        color: var(--white);
+    }
+
+    & > svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        color: var(--white);
+        border-bottom: 2px solid var(--light-blue);
     }
 `;

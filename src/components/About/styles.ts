@@ -18,14 +18,6 @@ export const Flex = styled.div`
     }
 `;
 
-export const Paragraph = styled.div`
-    padding-top: 30px;
-    font-weight: bold;
-    @media (max-width: 425) {
-        width: 100%;
-    }
-`;
-
 export const Size = styled.div`
     @media (min-width: 768px) {
         width: 100%;

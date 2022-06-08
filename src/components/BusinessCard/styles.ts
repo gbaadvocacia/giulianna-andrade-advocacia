@@ -1,17 +1,20 @@
 import styled from 'styled-components';
 
+import ForumImg from '../../assets/forum.png';
+
 export const Container = styled.section`
     background-color: var(--blue);
     @media (max-width: 560px) {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 `;
 
 export const Cover = styled.div`
-    background-size: 50% 100vh;
-    background-position: 100% 0;
+    background-size: contain;
+    background-position: top right;
     background-repeat: no-repeat;
+    background-image: url(${ForumImg});
 
     @media (max-width: 768px) {
         background-size: 0 0;
@@ -21,12 +24,6 @@ export const Cover = styled.div`
 
     @media (min-width: 769px) {
         background-size: 40% 100vh;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    @media (min-width: 1400px) {
-        background-position: 100% 0;
         padding-top: 100px;
         padding-bottom: 100px;
     }

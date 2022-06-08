@@ -18,6 +18,7 @@ const Nav: React.FC<INavProp> = ({ value, id }) => {
                 offset={-50}
                 duration={500}
                 onClick={closeMenu}
+                title={value}
             >
                 <Title>{value}</Title>
             </UnderLine>

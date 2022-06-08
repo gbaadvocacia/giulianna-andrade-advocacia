@@ -13,23 +13,23 @@ const Values: React.FC = () => {
                 <Title>
                     <h1 className="text-center fw-bold">VALORES</h1>
                 </Title>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center gy-4 gx-4">
-                    <div className="col d-flex mb-3 justify-content-center">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center g-4">
+                    <div className="col d-flex">
                         <ValuesCard value={DedicationImg} type="DEDICAÇÃO" />
                     </div>
-                    <div className="col d-flex mb-3 justify-content-center">
+                    <div className="col d-flex">
                         <ValuesCard value={ConfiancaImg} type="CONFIANÇA" />
                     </div>
-                    <div className="col d-flex  mb-3 justify-content-center">
+                    <div className="col d-flex">
                         <ValuesCard value={CuidadoImg} type="CUIDADO" />
                     </div>
-                    <div className="col d-flex mb-3 justify-content-center">
+                    <div className="col d-flex">
                         <ValuesCard
                             value={TransparenciaImg}
                             type="TRANSPARÊNCIA"
                         />
                     </div>
-                    <div className="col d-flex mb-3 justify-content-center">
+                    <div className="col d-flex">
                         <ValuesCard value={EficienciaImg} type="EFICIÊNCIA" />
                     </div>
                 </div>

@@ -4,6 +4,13 @@ export const Border = styled.div`
     background-color: var(--gray);
     border-radius: 50px;
 
+    & > div:nth-child(1) {
+        @media (max-width: 575px) {
+            flex-basis: 100px;
+            margin-right: 30px;
+        }
+    }
+
     @media (min-width: 768px) {
         h5 {
             font-size: 1rem;
@@ -14,23 +21,4 @@ export const Border = styled.div`
             font-size: 1.5rem;
         }
     }
-`;
-
-export const ImgCard = styled.img``;
-
-export const Card = styled.div`
-    width: 350px;
-    height: 233px;
-    border: none;
-    background-color: var(--gray);
-    border-radius: 50px;
-
-    padding: 30px;
-`;
-
-export const Container = styled.div`
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
 `;

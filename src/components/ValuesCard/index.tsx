@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import { Border, Card, Container, ImgCard } from './styles';
+import { Border } from './styles';
 
 interface IValuesProps {
     value: string;
@@ -7,23 +7,13 @@ interface IValuesProps {
 }
 const ValuesCard: React.FC<IValuesProps> = ({ value, type }) => {
     return (
-        <Border className="align-items-center align-self-strech justify-items-center w-100 h-100">
-            <Container>
-                <div className="d-flex align-items-center">
-                    <Card className="card d-flex align-items-center">
-                        <ImgCard
-                            src={value}
-                            alt="Values image"
-                            className="img-fluid align-self-center"
-                            width="150"
-                            height="233"
-                        />
-                    </Card>
-                </div>
-                <div className="card-body d-flex justify-content-center">
-                    <h5 className="card-title mt-auto mb-0 fw-bold">{type}</h5>
-                </div>
-            </Container>
+        <Border className="d-flex flex-sm-column align-items-center justify-content-center w-100 p-4">
+            <div className="flex-sm-grow-1 d-flex align-items-center">
+                <img src={value} alt="Values image" className="img-fluid" />
+            </div>
+            <div className="text-center mt-sm-3">
+                <h5 className="card-title mt-auto mb-0 fw-bold">{type}</h5>
+            </div>
         </Border>
     );
 };

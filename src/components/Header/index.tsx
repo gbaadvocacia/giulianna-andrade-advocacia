@@ -1,5 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Alignment, Container, DarkHeader, Img, List } from './styles';
+import {
+    Alignment,
+    Container,
+    DarkHeader,
+    Img,
+    List,
+    UnderLine,
+} from './styles';
 import { FaWhatsapp } from 'react-icons/fa';
 import { GrFacebookOption, GrInstagram } from 'react-icons/gr';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
@@ -9,8 +16,12 @@ import { Circle } from '../Circle';
 import Nav from '../Nav';
 import { SocialMedia } from '../SocialMedia';
 import { AiOutlineMenu } from 'react-icons/ai';
+import Config from '../../Config';
+import { useState } from 'react';
 
 const Header: React.FC = () => {
+    const [click, setClick] = useState(false);
+    const closeMenu = () => setClick(!click);
     return (
         <DarkHeader>
             <Container className="container">
@@ -57,33 +68,47 @@ const Header: React.FC = () => {
                                 </li>
                                 <Nav value="Contato" id="contact" />
                             </List>
-                            <Alignment className="d-flex">
-                                <div className="me-2">
+                            <Alignment className="d-flex align-items-center">
+                                {Config.social.instagram && (
+                                    <div className="me-2">
+                                        <SocialMedia
+                                            icon={<GrInstagram />}
+                                            link={Config.social.instagram}
+                                            title="Instagram"
+                                        />
+                                    </div>
+                                )}
+                                {Config.social.whatsapp && (
+                                    <div className="me-2">
+                                        <SocialMedia
+                                            icon={<FaWhatsapp />}
+                                            link={Config.social.whatsapp}
+                                            title="Whatsapp"
+                                        />
+                                    </div>
+                                )}
+                                {Config.social.email && (
+                                    <div className="me-2">
+                                        <UnderLine
+                                            to="contact"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-50}
+                                            duration={500}
+                                            onClick={closeMenu}
+                                            title="E-mail"
+                                        >
+                                            <MdOutlineAlternateEmail />
+                                        </UnderLine>
+                                    </div>
+                                )}
+                                {Config.social.facebook && (
                                     <SocialMedia
-                                        value={<GrInstagram />}
-                                        link="https://www.instagram.com/"
-                                        title="link para o perfil no Instagram"
+                                        icon={<GrFacebookOption />}
+                                        link={Config.social.facebook}
+                                        title="link para o perfil do Facebook"
                                     />
-                                </div>
-                                <div className="me-2">
-                                    <SocialMedia
-                                        value={<FaWhatsapp />}
-                                        link="https://api.whatsapp.com/send/?phone=5541996386897"
-                                        title="link para o whatsapp"
-                                    />
-                                </div>
-                                <div className="me-2">
-                                    <SocialMedia
-                                        value={<MdOutlineAlternateEmail />}
-                                        link="https://www.instagram.com/"
-                                        title="link para o contato de e-mail"
-                                    />
-                                </div>
-                                <SocialMedia
-                                    value={<GrFacebookOption />}
-                                    link="https://www.facebook.com/"
-                                    title="link para o perfil do Facebook"
-                                />
+                                )}
                             </Alignment>
                         </div>
                     </div>

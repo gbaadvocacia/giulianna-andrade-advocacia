@@ -38,8 +38,8 @@ export const Img = styled.div`
 `;
 
 export const Container = styled.div`
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
     @media (max-width: 540px) {
         padding-top: 15px;

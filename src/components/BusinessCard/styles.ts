@@ -21,12 +21,6 @@ export const Cover = styled.div`
         padding-top: 30px;
         padding-bottom: 30px;
     }
-
-    @media (min-width: 769px) {
-        background-size: 40% 100vh;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 `;
 
 export const Content = styled.div`

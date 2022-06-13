@@ -25,24 +25,13 @@ export const Cover = styled.div`
 
 export const Content = styled.div`
     background-color: var(--blue);
-    max-width: 65vh;
+    max-width: 65%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
-    @media (min-width: 769px) {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    @media (max-width: 1400px) {
-        max-width: 40vw;
-    }
     @media (max-width: 768px) {
-        padding-top: 10px;
-        max-width: 100vw;
-    }
-
-    @media (max-width: 560px) {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        max-width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 `;

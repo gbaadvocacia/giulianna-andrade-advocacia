@@ -5,7 +5,7 @@ import TheOffice from '../../components/TheOffice';
 import Values from '../../components/Values';
 import About from '../../components/About';
 import Acting from '../../components/Acting';
-import Comments from '../../components/Comments';
+// import Comments from '../../components/Comments';
 import Contact from '../../components/Contact';
 
 const Main = () => (
@@ -16,7 +16,7 @@ const Main = () => (
         <Values />
         <About />
         <Acting />
-        <Comments />
+        {/* <Comments /> */}
         <Contact />
         <Footer />
     </>

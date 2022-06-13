@@ -1,4 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
+import Config from '../../Config';
 import { Border, LinkDecoration, Padding, Title } from './styles';
 
 interface IContactMeProp {
@@ -7,10 +8,7 @@ interface IContactMeProp {
 
 export const ContactMe: React.FC<IContactMeProp> = ({ color }) => {
     return (
-        <LinkDecoration
-            href="https://api.whatsapp.com/send/?phone=5541996386897"
-            target="_blank"
-        >
+        <LinkDecoration href={Config.contact.whatsapp} target="_blank">
             <Border
                 className={`d-flex align-items-center justify-items-center text-center ${color}`}
             >

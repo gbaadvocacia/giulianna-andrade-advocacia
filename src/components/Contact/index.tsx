@@ -10,14 +10,14 @@ const Contact: React.FC = () => (
         <Cover style={{ backgroundImage: `url(${BackgroundImg})` }}>
             <div className="container justify-content-center text-center text-white">
                 <Title>CONTATO</Title>
-                {Config.social.whatsapp && (
+                {Config.contact.whatsapp && (
                     <div className="d-flex justify-content-center mb-5 pb-5">
                         <ContactMe color="green" />
                     </div>
                 )}
                 <Flex className="d-flex justify-content-center">
                     <Width>
-                        {Config.social.contato && (
+                        {Config.contact.phoneNumber && (
                             <div className="d-flex align-items-center justify-content-start mb-4">
                                 <img
                                     src={WhatsImg}
@@ -26,12 +26,12 @@ const Contact: React.FC = () => (
                                 />
                                 <Border className="align-items-center">
                                     <span className="fs-4 fw-bold">
-                                        {Config.social.contato}
+                                        {Config.contact.phoneNumber}
                                     </span>
                                 </Border>
                             </div>
                         )}
-                        {Config.social.email && (
+                        {Config.contact.email && (
                             <div className="d-flex align-items-center justify-content-start">
                                 <img
                                     src={EmailImg}
@@ -40,7 +40,7 @@ const Contact: React.FC = () => (
                                 />
                                 <Border className="align-items-center">
                                     <Text className="fw-bold">
-                                        {Config.social.email}
+                                        {Config.contact.email}
                                     </Text>
                                 </Border>
                             </div>

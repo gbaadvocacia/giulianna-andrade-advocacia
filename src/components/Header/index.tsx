@@ -78,16 +78,16 @@ const Header: React.FC = () => {
                                         />
                                     </div>
                                 )}
-                                {Config.social.whatsapp && (
+                                {Config.contact.whatsapp && (
                                     <div className="me-2">
                                         <SocialMedia
                                             icon={<FaWhatsapp />}
-                                            link={Config.social.whatsapp}
+                                            link={Config.contact.whatsapp}
                                             title="Whatsapp"
                                         />
                                     </div>
                                 )}
-                                {Config.social.email && (
+                                {Config.contact.email && (
                                     <div className="me-2">
                                         <ScrollLink
                                             to="contact"

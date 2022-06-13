@@ -1,5 +1,5 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import Main from '../page/Main';
+import Main from '../pages/Main';
 
 export const PagesRoutes: React.FC = () => (
     <BrowserRouter>

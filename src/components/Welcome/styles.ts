@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: var(--blue);
-    max-width: 45vw;
     h1 {
         font-size: 4rem;
         letter-spacing: 13px;
@@ -27,7 +26,6 @@ export const Container = styled.div`
 
     @media (max-width: 768px) {
         text-align: center;
-        max-width: 100vh;
 
         h1 {
             font-size: 2rem;
@@ -42,7 +40,6 @@ export const Container = styled.div`
 
     @media (max-width: 576px) {
         text-align: center;
-        max-width: 100vh;
 
         h1 {
             font-size: 1.5rem;

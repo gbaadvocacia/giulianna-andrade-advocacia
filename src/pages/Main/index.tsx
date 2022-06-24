@@ -7,6 +7,7 @@ import About from '../../components/About';
 import Acting from '../../components/Acting';
 // import Comments from '../../components/Comments';
 import Contact from '../../components/Contact';
+import Comments from '../../components/Comments';
 
 const Main = () => (
     <>
@@ -16,7 +17,7 @@ const Main = () => (
         <Values />
         <About />
         <Acting />
-        {/* <Comments /> */}
+        <Comments />
         <Contact />
         <Footer />
     </>

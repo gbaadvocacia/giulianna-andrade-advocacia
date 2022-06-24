@@ -8,21 +8,23 @@ const Comments: React.FC = () => {
                 <Title className="fw-bold text-center">
                     O QUE DIZEM SOBRE MIM
                 </Title>
-                <div className="row row-cols-1 row-cols-md-2 justify-content-between">
-                    <div className="col mb-4 py-1">
+                <div className="row row-cols-1 row-cols-xl-2 justify-content-center">
+                    <div className="d-flex col mb-4 py-1">
                         <Statement
-                            stat="Os testemunhos das citações são a forma mais popular de
-                depoimentos. Eles são poderosos, têm credibilidade e, o mais
-                importante, são eficazes"
-                            name="José Gonçalves"
+                            stat="Há três anos a Dra. Giulianna vem prestando seu trabalho jurídico para eu e minha família. Trabalho esse com competência, seriedade e resolutividade. Sempre que necessito de orientação e intervenção jurídica não tenho dúvidas sobre a quem recorrer."
+                            name="PATRÍCIA LOYOLA DE CAMARGO"
                         />
                     </div>
-                    <div className="col py-1">
+                    <div className="d-flex col py-1">
                         <Statement
-                            stat="Os testemunhos das citações são a forma mais popular de
-                depoimentos. Eles são poderosos, têm credibilidade e, o mais
-                importante, são eficazes"
-                            name="Ana Maria"
+                            stat="Dedicada, integra e muito ética.  Um dos diferencias que considero de grande valor é a forma como trata de meus processos, sempre me mantendo informada e explicando em linguagem acessível todos os trâmites em relação as ações."
+                            name="MARCIA MAYER DE LIMA"
+                        />
+                    </div>
+                    <div className="d-flex col py-1 mb-4">
+                        <Statement
+                            stat="Super indicio a Dra. Giuliana! Uma excelente profissional, atenciosa e prestativa! Sempre me deixou a par do andamento do processo, e o melhor de tudo ganhamos"
+                            name="BRUNO LIMA BORGES"
                         />
                     </div>
                 </div>

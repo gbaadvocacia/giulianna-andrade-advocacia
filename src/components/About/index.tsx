@@ -21,38 +21,41 @@ const About: React.FC = () => {
                                 mediadora de conflitos. Natural de Curitiba,
                                 formada pelo Centro Universitário Autônomo do
                                 Brasil, inscrita na Ordem dos Advogados do
-                                Brasil Subseção Paraná sob n 86.475.
+                                Brasil, Subseção Paraná, sob n 86.475.
+                            </Paragraph>
+                            <Paragraph>
                                 Pós-graduada em Direito Processual Civil pelo
                                 Centro Universitário Internacional UNINTER e
                                 Pós-graduada em Direito do Trabalho e
                                 Previdenciário pela Academia Brasileira de
-                                Direito Constitucional ABBCONST.
+                                Direito Constitucional ABDConst.
                             </Paragraph>
                             <Paragraph>
                                 Membra do Instituto Brasileiro de Direito da
-                                Família - IBDFAM. Menbra do Grupo de Discussão
+                                Família - IBDFAM. Membra do Grupo de Discussão
                                 Permanente de Direito de Família da Subseção de
-                                Curitiba OAB/PR. Atuando na área jurídica desde
-                                2013, junto à escritórios de advocacia e à
-                                administração pública, possui experiência nas
+                                Curitiba OAB/PR. Atua na área jurídica desde
+                                2013, junto a escritórios de advocacia e
+                                administração pública, possuindo experiência nas
                                 mais diversas áreas do direito.
                             </Paragraph>
                             <Paragraph>
                                 Passou a advogar de forma autônoma quando
-                                fundou, em 2017, o escritório de GBA Advocacia.
-                                Com a prática da advocacia, passou a perceber a
-                                necessidade de desenvolver habilidades para além
-                                da formação acadêmica do direito, tais como
-                                técnicas de negociação e estudos dos métodos
-                                existentes para a resolução de conflitos.
+                                fundou, em 2017, o escritório de Advocacia GBA.
+                                Com a prática, passou a perceber a necessidade
+                                de desenvolver habilidades para além da formação
+                                do direito, tais como técnicas de negociação, de
+                                comunicação, de escuta ativa, dos métodos
+                                adequados existentes para a resolução de
+                                conflitos, dentre outros.
                             </Paragraph>
                             <Paragraph>
-                                2021, capacitou-se como Conciliadora e Mediadora
-                                Judicial. Certificada pelo Tribunal de Justiça
-                                do Estado do Paraná, em formação continuada.
-                                Atualmente atua como advogada e mediadora junto
-                                ao escritório GBA Advocacia, e também como
-                                mediadora judicial.
+                                Assim, em 2021, capacitou-se como Conciliadora e
+                                Mediadora Judicial certificada pelo Tribunal de
+                                Justiça do Estado do Paraná, em formação
+                                continuada. Atualmente atua como advogada e
+                                mediadora junto ao escritório GBA Advocacia, e
+                                também como mediadora judicial.
                             </Paragraph>
                         </div>
                     </div>

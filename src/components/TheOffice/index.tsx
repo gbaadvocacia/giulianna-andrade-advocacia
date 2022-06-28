@@ -11,7 +11,7 @@ const TheOffice: React.FC = () => {
                         <p>
                             A missão deste escritório de advocacia é ouvir,
                             compreender e auxiliar os clientes na busca da
-                            solução mais acertada e eficiente para resolução
+                            solução mais acertada e eficiente para resolução dos
                             seus conflitos.
                         </p>
                     </Paragraph>

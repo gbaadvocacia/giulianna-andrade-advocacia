@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 export const MainFooter = styled.div`
     background-color: var(--dark-blue);
@@ -21,7 +22,7 @@ export const MainFooter = styled.div`
     }
 `;
 
-export const Link = styled.a`
+export const LinkStyle = styled.a`
     text-decoration: none;
     color: var(--white);
 
@@ -42,4 +43,33 @@ export const List = styled.ul`
 
 export const Site = styled.span`
     color: #bdc3c7;
+`;
+
+export const ScrollLink = styled(Link)`
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+
+    &:hover {
+        color: var(--white);
+    }
+
+    & > svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        color: var(--white);
+    }
 `;
